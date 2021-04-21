@@ -1,0 +1,174 @@
+/* ГЛОБАЛЬНЫЕ ПРАВИЛА */
+* {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.main {
+    padding-top: 60px;
+    padding-bottom: 108px;
+}
+/* // ГЛОБАЛЬНЫЕ ПРАВИЛА */
+
+/* основной товар */
+
+.main-product {
+    margin-bottom: 90px;
+}
+
+.main-product__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-product__image {
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.main-product__content {
+    height: 474px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.main-product__header {
+    margin-bottom: 20px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main-product__price {
+    margin-bottom: 40px;
+}
+
+.price {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.2;
+    color: #7E9BBD;
+}
+
+.main-product__price span:last-child {
+    font-size: 16px;
+}
+
+.button {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 46px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius: 6px;
+    text-decoration: none;
+
+    color: #7E9BBD;
+    border: 3px solid rgba(126, 155, 189, 0.3);
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.main-product__button {
+    margin-bottom: 40px;
+}
+
+.button--black {
+    background: #000000;
+    color: #fff;
+    font-weight: 700;
+}
+
+.main-product__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 278px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.main-product__description a {
+    color: #000;
+}
+
+/* список товаров */
+.header--decorative {
+    font-family: 'Playfair Display', serif;
+}
+
+.product-extra__container {
+    width: 1110px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-extra__header {
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.product-extra__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 350px;
+    height: 410px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.3);
+}
+
+.card__image {
+    margin-bottom: 20px;
+}
+
+.card__title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.card__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__details .price {
+    font-size: 20px;
+}
